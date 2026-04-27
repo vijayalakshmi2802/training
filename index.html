@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DevOps Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 80px;
+            background-color: #f4f7f9;
+            color: #333;
+        }
+        h1 {
+            color: #007bff;
+            font-size: 48px;
+        }
+        p {
+            font-size: 22px;
+            margin: 20px 0;
+        }
+        .highlight {
+            color: #28a745;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 100px;
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello from AWS DevOps Project! 🚀</h1>
+    <p>This is a simple static website.</p>
+    <p>Deployed automatically using:</p>
+    <p class="highlight">Git + GitHub + Jenkins + AWS EC2 + Nginx</p>
+    
+    <p>Now edit this file, commit, and push to GitHub.<br>
+       Watch Jenkins automatically deploy the changes!</p>
+
+    <footer>
+        <p>Made for learning DevOps • Current time: <span id="time"></span></p>
+    </footer>
+
+    <script>
+        // Optional: Show current time on page
+        document.getElementById("time").innerHTML = new Date().toLocaleString();
+    </script>
+</body>
+</html>
